@@ -13,10 +13,10 @@
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-	</properties>
+	 <properties>
+        <maven.compiler.source>18</maven.compiler.source>
+        <maven.compiler.target>18</maven.compiler.target>
+    </properties>
 
 	<dependencies>
 
@@ -49,6 +49,7 @@
 					<!-- https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html -->
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.8.0</version>
+					
 				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
